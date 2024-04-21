@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>My HTML Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      .column{
+        float: left;
+        width: 20%;
+        padding-left: 0px;
+        padding-top: 30px;
+      }
+      .column-33{
+        /* position: fixed; */
+        padding-left: 0px;
+        border: none;
+        overflow-x: hidden;
+        border-radius: 10px;
+        float: left;
+        width: 100%;
+        z-index: 1;
+         top: 0;
+         left: 0;
+        /* padding-left: 20px; */
+        padding-top: 40px;
+        height: 100%;
+        background-color: rgb(13, 8, 0);
+        color: aliceblue;
+        /* line-height: 1.42857143; */
+        text-align: center;
+        /* overflow: scroll; */
+       
+        
+      }
+      .row::after{
+          content: "";
+          display: table;
+          clear: both;
+      }
+       .column-66 {
+          /* float: left; */
+
+          width: 80%;
+          /* padding: 20px; */
+          background-color: rgb(24, 112, 136);
+          height: 100%;
+     } 
+      @media screen and (max-width: 600px) {
+        .column-66,
+        .column-33 
+        .column{
+              width: 100%;
+              text-align: center;
+        }
+       
+      }
+      
+      .image{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+          
+            border: none;
+            border-radius: 100px;
+            
+            height: 200px;
+           
+      }
+      .home {
+        color: aliceblue;
+        font-size: 30px;
+      
+        
+      }
+      .icon{
+        background-color: aliceblue;
+        color: black;
+        border-radius: 10px;
+      }
+      
+     
+    </style>
+  </head>
+  
+  <body>
+    <div class="row">
+      <div class="  column-33 text-white" style="width: 20%;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="home">
+          <b>Shahid Mubasshar </b>
+        </div>
+      </br >
+       <div>
+        <img src="shahid.jpg" alt="image"  class="image">
+       </div> 
+      </br>      
+          <div >
+            <a href="home.html" class="home">Home</a>
+          </div>
+        </br>
+          <div >
+             <a href="research.html" class="home">Research</a>
+          </div>
+        </br>
+          <div > 
+            <a href="projects.html" class="home" >Projects</a>
+          </div>
+        </br>
+          <div >
+            <a href="https://github.com/shahidmubasshar/new-rep" class="home">GitHub</a>
+          </div>
+        </br>
+        <div >
+          <b class="home">Contact</b>
+        </div>
+          <div class="row"> 
+            <div class="column" style="width: 25%;">
+              <b style="font-size: 20px; padding: 5px 40px 40px 30px; ">
+                <i class="fa fa-phone " area-hidden="true" >
+                  
+                </i>
+              </b>
+            </div>
+            <div class="column" style="width: 75%;text-align: left;">
+              <b style="font-size: 18px; padding: 10px 0px 0px 0px;">
+                +37254260919
+              </b>
+            </div>
+            
+          </div>
+           <div class="row"> 
+            <div class="column" style="width: 25%;">
+              <b style="font-size: 20px; padding: 5px 40px 40px 30px;">
+                <i class="fa fa-map-marker " area-hidden="true" >
+                  
+                </i>
+              </b>
+            </div>
+            <div class="column" style="width: 75%;text-align: left;">
+              <b style="font-size: 18px; padding: 10px 0px 0px 0px;">
+                Mathematical Institute of Charles University, Prague, Czech Republic
+              </b>
+            </div>
+            
+          </div>
+          <div class="row"> 
+            <div class="column" style="width: 25%;">
+              <b style="font-size: 20px; padding: 5px 40px 40px 30px;">
+                <i class="fa fa-envelope " area-hidden="true" >
+                  
+                </i>
+              </b>
+            </div>
+            <div class="column" style="width: 75%;text-align: left;">
+              <b style="font-size: 18px; padding: 10px 0px 0px 0px;">
+                smsaroya47@gmail.com
+              </b>
+            </div>
+            
+          </div>
+             
+       
+      </div>
+     
+      <div class="  column-33 text-dark"style="width: 80%; background-color: white; " data-aos="fade-up" data-aos-duration="1000">
+        
+        <div  class="column"style="width: 100%;  padding: 0px 0px 40px 100px;text-align: left; display: inline-block ; ">
+         
+					<p style="color: rgb(0, 4, 5);">
+            <b><h1 style="color: rgb(0, 4, 5);">Rising Bubble</h1></b>
+            
+              
+            <iframe src="new.mp4" frameborder="0" height="400px" width="600px" ></iframe>
+            
+            
+
+          </p>
+				</div>
+    </div>
+  
+  </body>
+  
+</html>
